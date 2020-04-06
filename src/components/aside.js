@@ -6,14 +6,15 @@ import styles from '../components/asideStyles.module.css'
 import Title from '../components/title'
 import Navigation from '../components/navigation'
 import Counter from '../components/counter'
+import Social from '../components/social'
 
 const Aside = () => (
     <div className={styles.wrapper}>
-        <Container>
+        <Container className={styles.container}>
             <Counter />
             <Title />
             <Navigation/>
-            <p>Helo there. (aside)</p>
+            <Social />
         </Container>
     </div>
 )

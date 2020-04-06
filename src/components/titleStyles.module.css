@@ -9,8 +9,6 @@ h2{
     transition: color .35s ease-out;
     cursor: default;
     font-family: Poppins;
-    margin-bottom: 85px;
-    margin-top:85px;
 }
 h2::after{
     content: '';

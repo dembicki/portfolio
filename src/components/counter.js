@@ -1,5 +1,7 @@
 import React from 'react'
 
 export default () => (
-    <h3>01/07</h3> 
+    <h4 style={{
+        fontWeight:'800'
+    }}>01 / 06</h4> 
 )
