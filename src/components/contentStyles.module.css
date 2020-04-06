@@ -2,7 +2,7 @@
     position: relative;
     top:0;
     display:block;
-    height: 100vh;
-    padding: 85px 100px;
+    height: 100%;
+    padding: 85px 100px 85px 300px;
     background-color: #fff1f1;
 }

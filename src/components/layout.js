@@ -14,10 +14,7 @@ import "./layout.css"
 
 const Layout = ({ children }) => (
     <>
-      <div styles={{
-        border:`4px solid red`
-      }}
-      >{children}</div>
+      <div>{children}</div>
     </>
   )
 
