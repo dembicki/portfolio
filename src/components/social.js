@@ -21,11 +21,7 @@ export default () => {
   return (
     <ul className={styles.social}>
       {socialLinks.map(e => {
-        return (
-          <li key={e.name}>
-            <a href={e.link}>{e.name}</a>
-          </li>
-        )
+        return <li key={e.name}><a href={e.link}>{e.name}</a></li>
       })}
     </ul>
   )

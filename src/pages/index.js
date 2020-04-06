@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 
 
@@ -9,13 +8,18 @@ import Aside from "../components/aside"
 import Content from "../components/content"
 import SEO from "../components/seo"
 
+import Services from '../sections/services'
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Damian Dembicki" />
     <Container fluid>
       <Row>
         <Col md="8">
-          <Content />
+          <Content>
+            XD
+            <Services />
+          </Content>
         </Col>
 
         <Col md="4">

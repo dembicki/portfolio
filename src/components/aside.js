@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Column} from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 
 import styles from '../components/asideStyles.module.css'
 
@@ -9,14 +9,14 @@ import Counter from '../components/counter'
 import Social from '../components/social'
 
 const Aside = () => (
-    <div className={styles.wrapper}>
+    <header className={styles.wrapper}>
         <Container className={styles.container}>
             <Counter />
             <Title />
             <Navigation/>
             <Social />
         </Container>
-    </div>
+    </header>
 )
 
 export default Aside

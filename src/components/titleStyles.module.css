@@ -1,4 +1,4 @@
-h2{
+.title{
     color:black;
     font-size: 15px;
     line-height: 25px;
@@ -10,7 +10,7 @@ h2{
     cursor: default;
     font-family: Poppins;
 }
-h2::after{
+.title::after{
     content: '';
     position: absolute;
     bottom: -5px;

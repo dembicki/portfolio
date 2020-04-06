@@ -1,9 +1,23 @@
 .social{
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    left:-40px
 }
 
 .social > li {
-    margin-left:.5rem;
+    margin-left:1rem;
+}
+.social > li > a{
+    text-decoration: none;
+    color:black;
+}
+.social > li:hover > a{
+    color:red;
+}
+
+.social > li:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
 }
