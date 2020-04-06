@@ -3,3 +3,7 @@
     flex-flow: row;
     justify-content: space-between;
 }
+
+.social > li {
+    margin-left:.5rem;
+}

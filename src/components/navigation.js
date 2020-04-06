@@ -1,28 +1,16 @@
 import React from "react"
 
-import styles from '../components/navigationStyles.module.css'
+import styles from "../components/navigationStyles.module.css"
 
-export default () => (
-  <nav>
-    <ul>
-      <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        <a href="#">Home</a>
-      </li>
-    </ul>
-  </nav>
-)
+export default () => {
+  const menuLinks = ['home','services','about','portfolio','skills','contact']
+  return (
+    <nav>
+      <ul>
+        {menuLinks.map( (e) => {
+            return (<li key={e}><a href={'#' + e}>{e}</a></li>)
+        })}
+      </ul>
+    </nav>
+  )
+}
