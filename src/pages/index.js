@@ -1,15 +1,28 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Container, Row, Col,Card } from "react-bootstrap"
+
+
 
 import Layout from "../components/layout"
+import Aside from "../components/aside"
+import Content from "../components/content"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, border: `1px solid red` }}>
-      <h2>test</h2>
-    </div>
+    <Container fluid>
+      <Row>
+        <Col md="7">
+          <Content />
+        </Col>
+
+        <Col md="5">
+          <Aside />
+        </Col>
+      </Row>
+    </Container>
   </Layout>
 )
 

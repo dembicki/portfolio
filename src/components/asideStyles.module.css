@@ -1,0 +1,11 @@
+.wrapper{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 2;
+    overflow: hidden;
+    padding: 85px 100px 85px 200px;
+    background-color: white;
+    
+}
