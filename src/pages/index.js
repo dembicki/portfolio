@@ -10,6 +10,7 @@ import SEO from "../components/seo"
 //sections
 import Services from '../sections/services'
 import About from '../sections/about'
+import Skills from '../sections/skills'
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = () => (
           <Content>
             <Services />
             <About />
+            <Skills />
           </Content>
         </Col>
 

@@ -13,7 +13,7 @@ const About = () => {
     },
     {
       type: "ROLE",
-      content: "nikeid1235@gmail.com",
+      content: "Front End Developer & Graphic Designer",
     },
     {
       type: "PHONE",
@@ -22,7 +22,7 @@ const About = () => {
   ]
 
   return (
-    <section id="services">
+    <section id="about">
       <h2 className={styles.heading}>About</h2>
       <p className={styles.subheading}>
         Lorem ipsum dolor sit amet consectetu adipiscing elit viverra tristique
