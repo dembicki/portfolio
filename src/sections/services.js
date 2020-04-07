@@ -2,7 +2,7 @@ import React from "react"
 
 import styles from "./services.module.css"
 
-import placeholder from "../images/150.png"
+//images
 import code from "../images/code.png"
 import develop from "../images/develop.png"
 import promote from "../images/promote.png"
@@ -43,6 +43,7 @@ const Services = () => {
         Lorem ipsum dolor sit amet consectetu adipiscing elit viverra tristique
         placerat
       </p>
+      
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
         tristique placerat in sat massa consectetur quisque. Nunc aces fames
@@ -56,6 +57,7 @@ const Services = () => {
         vulputate est phasellus. Volutpat faucibus per praesent aced nuncare
         voltare per settera lorem ipsum dolor.
       </p>
+
       <div className={styles.outer}>
         <a href="#">Download CV</a>
         <a href="#">My portfolio</a>

@@ -5,11 +5,8 @@ import Services from '../sections/services'
 
 
 
-const Content = () => (
+export default ({ children }) => (
     <main className={styles.wrapper}>
-        <Services />
-        <Services />
+        {children}
     </main>
 )
-
-export default Content

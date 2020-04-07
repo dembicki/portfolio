@@ -1,0 +1,49 @@
+.heading{
+    color:black;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.subheading{
+    margin: 0 0 20px!important;
+    font-size:20px!important;
+    display:block;
+    width:400px;
+    padding:20px 0;
+}
+
+.intro{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.imageOuter{
+    width:calc(100% + 150px)!important;
+}
+
+.contactWrapper{
+    position: relative;
+    right:-18px;
+    top:-65px;
+    width:320px;
+    height: 328px;
+    background-color: #f44647
+}
+
+.contactInner{
+    color:white;
+    padding:25px 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.extra{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:#eee!important;
+}
