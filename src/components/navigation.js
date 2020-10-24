@@ -3,7 +3,7 @@ import React from "react"
 import styles from "../components/navigationStyles.module.css"
 
 export default () => {
-  const menuLinks = ['home','services','about','portfolio','skills','contact']
+  const menuLinks = ['home','services','about','portfolio','experience','contact']
   return (
     <nav>
       <ul className={styles.nav}>

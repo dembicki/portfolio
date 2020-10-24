@@ -5,9 +5,8 @@
     height: 100vh;
     z-index: 2;
     overflow: hidden;
-    padding: 85px 300px 85px 0px;
-    background-color: white;
-    
+    background-color: white;  
+    padding: 30px;
 }
 
 .container{

@@ -1,14 +1,14 @@
 import React from "react"
 import { Col, Row } from "react-bootstrap"
 
-import styles from "./skills.module.css"
+import styles from "./experience.module.css"
 
 import aboutImg from "../images/about-img.jpg"
 
-const Skills = () => {
+const Experience = () => {
   return (
-    <section id="skills">
-      <h2 className={styles.heading}>Skills</h2>
+    <section id="experience">
+      <h2 className={styles.heading}>Experience</h2>
       <p className={styles.subheading}>
         Lorem ipsum dolor sit amet consectetu adipiscing elit viverra tristique
         placerat
@@ -54,4 +54,4 @@ const Skills = () => {
     </section>
   )
 }
-export default Skills
+export default Experience

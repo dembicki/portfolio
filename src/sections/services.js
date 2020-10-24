@@ -9,7 +9,7 @@ import promote from "../images/promote.png"
 import design from "../images/design.png"
 
 const Services = () => {
-  const skills = [
+  const experience = [
     {
       image: design,
       title: "Design",
@@ -64,7 +64,7 @@ const Services = () => {
       </div>
 
       <div className={styles.outerGrid}>
-        {skills.map(skill => {
+        {experience.map(skill => {
           return (
             <div key={skill.title} className={styles.innerGridItem}>
               <img src={skill.image} />

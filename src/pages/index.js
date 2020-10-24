@@ -6,11 +6,13 @@ import Layout from "../components/layout"
 import Aside from "../components/aside"
 import Content from "../components/content"
 import SEO from "../components/seo"
+import Footer from "../components/footer"
 
 //sections
 import Services from '../sections/services'
 import About from '../sections/about'
-import Skills from '../sections/skills'
+import Experience from '../sections/experience'
+import Contact from '../sections/contact'
 
 const IndexPage = () => (
   <Layout>
@@ -21,7 +23,8 @@ const IndexPage = () => (
           <Content>
             <Services />
             <About />
-            <Skills />
+            <Experience />
+            <Contact />
           </Content>
         </Col>
 
@@ -30,6 +33,7 @@ const IndexPage = () => (
         </Col>
       </Row>
     </Container>
+    <Footer content="XD"/>
   </Layout>
 )
 

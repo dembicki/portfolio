@@ -13,7 +13,7 @@ const About = () => {
     },
     {
       type: "ROLE",
-      content: "Front End Developer & Graphic Designer",
+      content: "Front End Developer",
     },
     {
       type: "PHONE",
